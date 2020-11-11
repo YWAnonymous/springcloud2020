@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d22b2fc-483a-4ad2-949b-46c8f2ab37c5" name="Default Changelist" comment="11">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/OrderHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/controller/OrderHystirxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zhou/springcloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="8d22b2fc-483a-4ad2-949b-46c8f2ab37c5" name="Default Changelist" comment="熔断功能">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/cloud-consumer-hystrix-dashboard9001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/zhou/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zhou/springcloud/controller/OrderFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zhou/springcloud/controller/OrderFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zhou/springcloud/service/PaymentFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/zhou/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/zhou/springcloud/controller/OrderFeignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/zhou/springcloud/controller/OrderFeignController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/zhou/springcloud/service/PaymentFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/zhou/springcloud/service/PaymentFeignService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/zhou/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/zhou/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zhou/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zhou/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/zhou/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/zhou/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/OrderHystrixMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/OrderHystrixMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/controller/OrderHystirxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/controller/OrderHystirxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/service/PaymentHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/zhou/springcloud/service/PaymentHystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/zhou/springcloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zhou/springcloud/PaymentHystrixMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zhou/springcloud/PaymentHystrixMain8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zhou/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zhou/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zhou/springcloud/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/zhou/springcloud/service/PaymentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +89,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -111,6 +108,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -135,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderHystrixMain80">
+  <component name="RunManager" selected="Spring Boot.HystrixDashboardMain9001">
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7001" />
       <extension name="coverage">
@@ -162,15 +162,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-feign-order80" />
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhou.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhou.springcloud.OrderFeignMain80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhou.springcloud.HystrixDashboardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,6 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhou.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8004" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhou.springcloud.PaymentMain8004" />
@@ -224,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderHystrixMain80" />
         <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.OrderFeignMain80" />
+        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+        <item itemvalue="Spring Boot.OrderHystrixMain80" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
       </list>
     </recent_temporary>
   </component>
@@ -251,11 +258,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -281,6 +283,7 @@
       <workItem from="1604884885078" duration="10017000" />
       <workItem from="1604969819117" duration="392000" />
       <workItem from="1604994886371" duration="3919000" />
+      <workItem from="1605058420885" duration="10728000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1604642595187</created>
@@ -310,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604901586499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="熔断功能">
+      <created>1605058655916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605058655916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="熔断功能">
+      <created>1605058741628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605058741628</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +349,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="熔断功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="熔断功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="39" key="#Notifications" timestamp="1604901608701">
@@ -347,50 +365,66 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="233" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1604641998641" />
-    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1604637390781">
+    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1605070520210">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1604637390781" />
-    <state x="125" y="0" key="CommitChangelistDialog2" timestamp="1605058603005">
+    <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1605070520210" />
+    <state x="121" y="0" key="CommitChangelistDialog2" timestamp="1605070193672">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="125" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1605058603005" />
+    <state x="121" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1605070193672" />
     <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1604630821748">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1604630821748" />
-    <state width="846" height="231" key="GridCell.Tab.0.bottom" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.0.bottom" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.0.center" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.0.center" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.0.left" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.0.left" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.0.right" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.0.right" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.1.bottom" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.1.bottom" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.1.center" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.1.center" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.1.left" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.1.left" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
-    <state width="846" height="231" key="GridCell.Tab.1.right" timestamp="1605004775654">
+    <state width="846" height="231" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.1.right" timestamp="1605072337231">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="846" height="231" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1605004775654" />
+    <state width="846" height="231" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1605072337231" />
+    <state width="846" height="231" key="GridCell.Tab.2.bottom" timestamp="1605064103123">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="231" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605064103123" />
+    <state width="846" height="231" key="GridCell.Tab.2.center" timestamp="1605064103123">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="231" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1605064103123" />
+    <state width="846" height="231" key="GridCell.Tab.2.left" timestamp="1605064103123">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="231" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1605064103123" />
+    <state width="846" height="231" key="GridCell.Tab.2.right" timestamp="1605064103123">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="846" height="231" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1605064103123" />
     <state width="214" height="477" key="HiddenNamespacesPopup" timestamp="1604641617711">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -407,10 +441,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1604642639821" />
-    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1604901592880">
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1605058754266">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1604901592880" />
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1605058754266" />
     <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1604631574988">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -427,10 +461,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="319" y="112" width="641" height="534" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1604888639341" />
-    <state x="14" y="126" key="new project wizard" timestamp="1604998400495">
+    <state x="14" y="126" key="new project wizard" timestamp="1605071040783">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="14" y="126" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1604998400495" />
+    <state x="14" y="126" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1605071040783" />
     <state x="299" y="172" width="672" height="677" key="run.anything.popup" timestamp="1604632980146">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
