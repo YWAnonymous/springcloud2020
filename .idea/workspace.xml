@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d22b2fc-483a-4ad2-949b-46c8f2ab37c5" name="Default Changelist" comment="降级">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/cloud-config-center-3344.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/zhou/springcloud/ConfigCenterMain3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3366/cloud-config-center-3366.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3366/src/main/java/com/zhou/springcloud/ConfigClientMain3366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3366/src/main/java/com/zhou/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3366/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/cloud-config-client-3355.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/zhou/springcloud/ConfigClientMain3355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/zhou/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/zhou/springcloud/GateWayMain9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/zhou/springcloud/config/GateWayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/zhou/springcloud/filter/GlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="8d22b2fc-483a-4ad2-949b-46c8f2ab37c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zhou/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/zhou/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/zhou/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3366/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3366/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3366/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3366/target/classes/com/zhou/springcloud/controller/ConfigClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3366/target/classes/com/zhou/springcloud/controller/ConfigClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/zhou/springcloud/controller/ConfigClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/zhou/springcloud/controller/ConfigClientController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center-3344" />
       <extension name="coverage">
@@ -163,6 +146,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhou.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhou.springcloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -315,7 +305,7 @@
       <workItem from="1605058420885" duration="11029000" />
       <workItem from="1605082219775" duration="687000" />
       <workItem from="1605144218463" duration="8692000" />
-      <workItem from="1605172384381" duration="827000" />
+      <workItem from="1605172384381" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1604642595187</created>
@@ -366,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605072419271</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="springcloud配置">
+      <created>1605173539549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605173539549</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +387,8 @@
     <MESSAGE value="测试" />
     <MESSAGE value="熔断功能" />
     <MESSAGE value="降级" />
-    <option name="LAST_COMMIT_MESSAGE" value="降级" />
+    <MESSAGE value="springcloud配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="39" key="#Notifications" timestamp="1604901608701">
@@ -409,46 +407,46 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="446" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1605146484667" />
-    <state x="120" y="0" key="CommitChangelistDialog2" timestamp="1605082375430">
+    <state x="120" y="0" key="CommitChangelistDialog2" timestamp="1605173538448">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="120" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1605082375430" />
+    <state x="120" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1605173538448" />
     <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1605082283990">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="421" y="135" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1605082283990" />
-    <state width="950" height="274" key="GridCell.Tab.0.bottom" timestamp="1605173422254">
+    <state width="950" height="274" key="GridCell.Tab.0.bottom" timestamp="1605174572593">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605173422254" />
-    <state width="950" height="274" key="GridCell.Tab.0.center" timestamp="1605173422253">
+    <state width="950" height="274" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605174572593" />
+    <state width="950" height="274" key="GridCell.Tab.0.center" timestamp="1605174572593">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1605173422253" />
-    <state width="950" height="274" key="GridCell.Tab.0.left" timestamp="1605173422253">
+    <state width="950" height="274" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1605174572593" />
+    <state width="950" height="274" key="GridCell.Tab.0.left" timestamp="1605174572592">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1605173422253" />
-    <state width="950" height="274" key="GridCell.Tab.0.right" timestamp="1605173422253">
+    <state width="950" height="274" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1605174572592" />
+    <state width="950" height="274" key="GridCell.Tab.0.right" timestamp="1605174572593">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1605173422253" />
-    <state width="950" height="274" key="GridCell.Tab.1.bottom" timestamp="1605173422255">
+    <state width="950" height="274" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1605174572593" />
+    <state width="950" height="274" key="GridCell.Tab.1.bottom" timestamp="1605174572595">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605173422255" />
-    <state width="950" height="274" key="GridCell.Tab.1.center" timestamp="1605173422254">
+    <state width="950" height="274" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605174572595" />
+    <state width="950" height="274" key="GridCell.Tab.1.center" timestamp="1605174572595">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1605173422254" />
-    <state width="950" height="274" key="GridCell.Tab.1.left" timestamp="1605173422254">
+    <state width="950" height="274" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1605174572595" />
+    <state width="950" height="274" key="GridCell.Tab.1.left" timestamp="1605174572594">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1605173422254" />
-    <state width="950" height="274" key="GridCell.Tab.1.right" timestamp="1605173422255">
+    <state width="950" height="274" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1605174572594" />
+    <state width="950" height="274" key="GridCell.Tab.1.right" timestamp="1605174572595">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="950" height="274" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1605173422255" />
+    <state width="950" height="274" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1605174572595" />
     <state width="846" height="231" key="GridCell.Tab.2.bottom" timestamp="1605064103123">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -481,10 +479,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1605157042812" />
-    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1605082907082">
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1605173543794">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1605082907082" />
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1605173543794" />
     <state x="324" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1605144219164">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
